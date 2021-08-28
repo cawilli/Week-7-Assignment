@@ -10,6 +10,9 @@ namespace Week_7_Assignment
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Welcome to C# Essential Training Part 1");
+            Console.WriteLine("Press Enter to Continue.");
+            Console.ReadLine();
         }
     }
 }
