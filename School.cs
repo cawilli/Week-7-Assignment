@@ -9,6 +9,7 @@ namespace Week_7_Assignment
     class School
     {
         // {get; set;} are auto-properties are helpful for encapsulation to your project 
+        // needed to add public or private access modifiers to determine end-user modification
         public string Name { get; set; }
         public string Address { get; set; }
         public string City { get; set; }
@@ -35,6 +36,19 @@ namespace Week_7_Assignment
 
                 }
             }
+            //your constructor usually handles intialization.
+            //your constructor needs to be the same name as your namespace
+            //can also get a constructor by typing ctor and hit tab x2
+            public School()
+                {
+                Name = "Untitled School";
+                PhoneNumber = "555-1234";
+                }
+            public School(string SchoolName, string SchoolPhoneNumber)
+                {
+                Name = SchoolName;
+                PhoneNumber = SchoolPhoneNumber;
+                }
 
     }
 }
