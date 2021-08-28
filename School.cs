@@ -72,8 +72,8 @@ namespace Week_7_Assignment
                 sb.AppendLine(this.City);
                 sb.Append(", ");
                 sb.Append(this.State);
-                sb.Append(" ").
-                sb.Append(this.Zip);
+                sb.Append(" ");
+                sb.Append(this.Zip);                
                 return sb.ToString();
              }
     }
