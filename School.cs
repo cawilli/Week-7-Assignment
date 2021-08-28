@@ -49,6 +49,16 @@ namespace Week_7_Assignment
                 Name = SchoolName;
                 PhoneNumber = SchoolPhoneNumber;
                 }
-
+            //added a method. Added both float and int but provides the same result 
+            public float AverageThreeScores(float a, float b, float c)
+                {
+                var result = (a + b + c) / 3;
+                return result;
+                }
+            public int AverageThreeScores(int a, int b, int c)
+                {
+                var result = (a + b + c) / 3;
+                return result;
+                }
     }
 }
