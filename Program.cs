@@ -6,13 +6,12 @@ using System.Threading.Tasks;
 
 namespace Week_7_Assignment
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+     public static void Main(string[] args) { }
+        public int AddTwo(int a, int b)
         {
-            Console.WriteLine("Welcome to C# Essential Training Part 1");
-            Console.WriteLine("Press Enter to Continue.");
-            Console.ReadLine();
+            return a + b;
         }
     }
 }
