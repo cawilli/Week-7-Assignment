@@ -11,6 +11,26 @@ namespace Week_7_Assignment
         public string PrimaryOrSecondary(string color)
         {
             var result = "";
+            switch (color.ToLower())
+            {
+                case "red":
+                    result = "Primary";
+                    break;
+                case "blue":
+                    result = "Primary";
+                    break;
+                case "yellow":
+                    result = "Primary";
+                    break;
+                default:
+                    result = "Secondary";
+                    break;
+            }
+            return result;
+        }
+        public string PrimaryOrSecondary(string color)
+        {
+            var result = "";
             if (color.ToLower() == "red")
             {
                 result = "Primary";
