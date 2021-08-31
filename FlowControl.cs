@@ -8,6 +8,17 @@ namespace Week_7_Assignment
 {
     public class FlowControl
     {
+        public string IsYourNameNotCandace(string yourName)
+        {
+            if(yourName.ToLower() != "candace")
+            {
+                return "Can we call you Candace?";
+            }
+            else
+            {
+                return "G'day Candace";
+            }
+        }
         public string GradeLetter(int score)
         {
             if(score > 90)
