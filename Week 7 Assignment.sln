@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.31613.86
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week 7 Assignment", "Week 7 Assignment.csproj", "{1E46C3B7-4FDE-4C8F-968A-8557E0DEFFB3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EssentialTrainingTests", "..\EssentialTrainingTests\EssentialTrainingTests.csproj", "{3C4B269A-9C12-4AFB-85F2-16543CF6072D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EssentialTrainingTests", ".\EssentialTrainingTests\EssentialTrainingTests.csproj", "{3C4B269A-9C12-4AFB-85F2-16543CF6072D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
