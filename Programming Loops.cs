@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Week_7_Assignment
 {
-    class Programming_Loops
+    public class Programming_Loops
     {
         public void ForLoop()
         {
