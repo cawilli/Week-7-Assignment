@@ -8,7 +8,39 @@ namespace Week_7_Assignment
 {
     public class FlowControl
     {
-        public string PrimaryOrSecondary(string color)
+        public string GradeLetter(int score)
+        {
+            if(score > 90)
+            {
+                return "A";
+            }
+            else if (score > 79 && score < 90)
+            {
+                return "B";
+            }
+            else if (score > 70 && score < 80)
+            {
+                return "C";
+            }
+            else
+            {
+                return "F";
+            }
+        }
+        public string PrimaryOrSecondaryCompound(string color)
+        {
+            if(color.ToLower() == "red" || color.ToLower() == "blue" || color.ToLower() == "yellow")
+            {
+                return "Primary";
+            }
+            else
+            {
+                return "Secondary";
+            }
+        }
+        public string PrimaryOrSecondarySwitch(string color)
+            //added switch at the end of PrimaryOrSecondary to specify switch statement
+            //switch not needed at the end but using the same string for this example
         {
             var result = "";
             switch (color.ToLower())
