@@ -8,6 +8,20 @@ namespace Week_7_Assignment
 {
     public class Programming_Loops
     {
+        public string BreakandContinue()
+        {
+            var sb = new StringBuilder();
+            var words = new List<string>() { "Bread", "Milk", "Eggs", "Cheese", "Apples" };
+            foreach(var word in words)
+            {
+                if (word.StartsWith("M")) continue;
+
+                if (word.StartsWith("C")) break;
+
+                sb.AppendLine(word);
+            }
+            return sb.ToString();
+        }
         public int DoWhileLoop()
         {
             var sum = 0;
